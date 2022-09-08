@@ -1,5 +1,4 @@
 from tkinter import messagebox
-from db_conn import engine,processQuery
 from tkinter import *
 from threading import Thread
 from sensor import Sensor
