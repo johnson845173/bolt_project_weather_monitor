@@ -12,8 +12,7 @@ class Sensor:
         response = requests.request("GET", conf.geturl)
         response = json.loads(response.text)
         val = response["value"]
-        return "smoke:28.0 light:1 humidity:77.69 temperature:18.6"
-        #return val
+        return val
 
     def convert_to_dict(self, received_string):
             mydict = dict((sensor_name.strip(), sensor_value.strip()) for sensor_name,sensor_value in 
