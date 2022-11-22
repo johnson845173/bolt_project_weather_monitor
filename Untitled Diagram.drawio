@@ -1,17 +1,23 @@
 <mxfile host="65bd71144e">
     <diagram id="gO3Jy4rZHEdBHrkhzuKl" name="Page-1">
-        <mxGraphModel dx="644" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="449" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="fk0CSFVy_i5N8Pg7T_2e-1" target="fk0CSFVy_i5N8Pg7T_2e-2">
+                <mxCell id="2" value="" style="edgeStyle=none;html=1;" parent="1" source="fk0CSFVy_i5N8Pg7T_2e-1" target="fk0CSFVy_i5N8Pg7T_2e-2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="fk0CSFVy_i5N8Pg7T_2e-1" value="new file" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="400" y="240" width="120" height="80" as="geometry"/>
                 </mxCell>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="fk0CSFVy_i5N8Pg7T_2e-2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="fk0CSFVy_i5N8Pg7T_2e-2" value="latest" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="400" y="390" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="New box" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="530" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
